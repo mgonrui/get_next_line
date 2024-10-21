@@ -10,10 +10,10 @@
 #include <fcntl.h>
 
 char *get_next_line(int fd);
-int	ft_size_until_c(char *str, char c);
+int ft_strlen(const char *str);
 char	*ft_strchr(const char *str, int c);
 void *ft_calloc(size_t num, size_t size);
-char	*ft_strjoin(char *s1, char *s2);
+char *ft_strjoin(char *s1, char *s2);
 
 
 typedef struct node
